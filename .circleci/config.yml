@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  test:
+    docker:
+      image: circleci/node:8
+      working_directory: /app
+      steps:
+        - checkout
+        - run: npm install -g yarn
+        - run: yarn
+        - run: ./node_modules/.bin/jest

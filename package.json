@@ -1,0 +1,10 @@
+{
+  "name": "ci-example",
+  "version": "1.0.0",
+  "description": "Example testing framework in Javascript, which runs in Docker and is tested on CircleCI.",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^23.4.1"
+  }
+}
