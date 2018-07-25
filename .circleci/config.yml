@@ -9,3 +9,8 @@ jobs:
       - run: npm install -g yarn
       - run: yarn
       - run: ./node_modules/.bin/jest
+
+workflows:
+  version: 2
+  run tests:
+    - test
