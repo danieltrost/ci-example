@@ -2,7 +2,7 @@ version: 2
 jobs:
   test:
     docker:
-      - image: node:10
+      - image: node:16
     working_directory: /app
     steps:
       - checkout
